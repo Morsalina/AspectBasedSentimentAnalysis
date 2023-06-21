@@ -10,19 +10,18 @@ For this task, we have used a publicly available dataset [Rahman and Kumar Dey, 
 only one of them, restaurant dataset for our task.
 
 ## Experiment Results
-For the first approach,
-#of epochs = 50,
-Loss function = sparse categorical crossentropy,
-Optimizer = Adam,
-Learning rate = ReduceLROnPlateau, which reduces the
-learning rate when loss does not decrease.
-Validation accuracy = 66.58%
-Test accuracy = 66.32%
+For the first approach, <br />
+#of epochs = 50, <br />
+Loss function = sparse categorical crossentropy, <br />
+Optimizer = Adam,<br />
+Learning rate = ReduceLROnPlateau, which reduces the learning rate when loss does not decrease. <br />
+Validation accuracy = 66.58% <br />
+Test accuracy = 66.32%<br />
 
-For the second approach,
-#of epochs = 20,
-Loss function = sparse categorical crossentropy,
-Optimizer = Adam,
-Learning rate = ReduceLROnPlateau, which reduces the learning rate when loss does not decrease.
-Validation accuracy = 70.44%
+For the second approach, <br />
+#of epochs = 20, <br />
+Loss function = sparse categorical crossentropy, <br />
+Optimizer = Adam, <br />
+Learning rate = ReduceLROnPlateau, which reduces the learning rate when loss does not decrease. <br />
+Validation accuracy = 70.44% <br />
 Test accuracy = 69.92%
